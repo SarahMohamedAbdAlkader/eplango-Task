@@ -1,0 +1,10 @@
+.cards{
+margin: 0;
+  position: absolute;
+  top: 75%;
+  margin-left: 30px;
+ 
+}
+.card{
+width:25rem
+}

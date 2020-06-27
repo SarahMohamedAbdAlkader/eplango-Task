@@ -6,57 +6,58 @@ import apple from '../../assests/imgs/apple.png'
 import google from '../../assests/imgs/google.png'
 import titleline1 from '../../assests/imgs/titleline1.png'
 import './Welcome.css';
+import '../../App.css'
 
 
 function WelcomePage() {
-    const size = useWindowSize();
+    // const size = useWindowSize();
 
-    function useWindowSize() {
+    // function useWindowSize() {
 
-        function getSize() {
+    //     function getSize() {
 
-            return {
+    //         return {
 
-                width: window.innerWidth,
+    //             width: window.innerWidth,
 
-                height: window.innerHeight
+    //             height: window.innerHeight
 
-            };
+    //         };
 
-        }
-
-
-
-        const [windowSize, setWindowSize] = useState(getSize);
+    //     }
 
 
 
-        useEffect(() => {
-
-
-            function handleResize() {
-
-                setWindowSize(getSize());
-
-            }
+    //     const [windowSize, setWindowSize] = useState(getSize);
 
 
 
-            window.addEventListener('resize', handleResize);
-
-            return () => window.removeEventListener('resize', handleResize);
-
-        }, []);
+    //     useEffect(() => {
 
 
+    //         function handleResize() {
 
-        return windowSize;
-    }
+    //             setWindowSize(getSize());
+
+    //         }
+
+
+
+    //         window.addEventListener('resize', handleResize);
+
+    //         return () => window.removeEventListener('resize', handleResize);
+
+    //     }, []);
+
+
+
+    //     return windowSize;
+    // }
     return (
     
-<div class="image " >
+<div  >
     <body>
-<img src={home} width={size.width} class="img-fluid" alt="Responsive image"/>   
+<img src={home}   class="image responsive"  alt="Responsive image" />   
 <div class="container d-flex justify-content-around ">
 <span><nav class="navbar navbar-expand-lg navbar-light text-white  mr-5 ml-5 font-weight-bold">
 <a class="navbar-brand ml-5" href="#"><img class="navbar-brand" src={logo}/></a>
@@ -94,13 +95,13 @@ function WelcomePage() {
 <div class="trial d-flex justify-content-around  ">  
   <div >
     
-    <img class="image" src={hero} class="img-fluid "  style={{width:"90%",height:"85%"}} />
+  <img alt="robot image" src={hero} class="  heroImage"/>
   
     </div>  
-  <div class="mt-5 mr-5"><h1 >AWESOME<br/> MOBILE APP. </h1><br/><p>An awesome WordPress theme for App Landing and App Store site</p>
+  <div class="mt-5 mr-5"><h1 class="h1" >AWESOME<br/> MOBILE APP. </h1><br/><p>An awesome WordPress theme for App Landing and App Store site</p>
  <div class="row mt-5 col-md-12 ">
-  <button type="button" class="btn btn-outline-light btn-lg col-md-5 mr-5 p-3  "><img src={apple} width="25px" height="25px"/>Apple Store</button>
-<button type="button" class="btn btn-outline-light btn-lg col-md-5  p-3"><img src={google} width="25px" height="25px"/>Google Play</button>
+  <button type="button" class="btn btn-outline-light  col-md-5  p-3  "><img src={apple} width="25px" height="25px"/>Apple Store</button>
+<button type="button" class="btn btn-outline-light  col-md-5  p-3"><img src={google} width="25px" height="25px"/>Google Play</button>
 
 </div>
 

@@ -1,8 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
 import WelcomePage from './components/welcome/welcomePage'
 import Circle from './components/circle/circle'
-import flower from './assests/imgs/flower.png'
+import Mobile from './components/bestMobileAppPage/mobileApp'
+import Awesomefeatures from './components/awesomeFeatures/awesomeFeatures'
+import Clients from './components/happyClients/Clients'
+import Team from './components/team/team'
 import './App.css';
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
  <div >
   
       <WelcomePage/>
-      <div class="row  d-flex justify-content-around  mt-5 mb-5">
+      <div class="row  d-flex justify-content-around mx-auto mt-5 mb-5">
        <div class="col-md-3 text-center">
       < Circle />
       <p class="font-weight-bold ">BUILD SHOWCASE</p>
@@ -33,8 +35,13 @@ function App() {
       <p class="text-muted ">Nam limber tempour cum solute nobes elif end option congo nhi jhdj</p>
       </div >
       </div>
-    
   
+      <Mobile />
+      <Awesomefeatures />
+      
+     
+      <Clients />
+      <Team />
    </div> 
     
   );

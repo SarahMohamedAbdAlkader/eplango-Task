@@ -1,4 +1,7 @@
-
+.btn:hover {
+  background-color: #998675; 
+  color: white;
+}
   .image { 
     position: relative; 
     width: 100%; /* for IE 6 */
@@ -10,11 +13,7 @@ span {
    color: white;
     width: 100%; 
   }
- h1{
 
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
- }
  .rotateImage{
    transform:  rotate(90deg);
 
@@ -32,3 +31,31 @@ span {
   grid-template-rows: 150px 150px; 
 
  }
+ .v {
+ 
+    /* Absolute centering */
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    /* Size limit */
+    max-width: 100%;
+    max-height: 100%;
+
+    /* Other required settings */
+    margin: auto;
+    overflow: auto;
+
+ }
+ @media screen and ( max-width: 1024px ) {
+  img.heroImage { width: 200px; }
+  }
+  @media screen and ( min-width:1025px ) and ( max-width: 1280px ) {
+  img.heroImage { width: 300px; }
+  }
+  @media screen and ( min-width: 1081px ) {
+  img.heroImage { width: 350px; }
+  }
+  img.heroImage { height: auto }
