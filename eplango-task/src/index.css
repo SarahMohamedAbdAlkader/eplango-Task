@@ -11,8 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-body {
-  font-family: 'Lato', sans-serif
+*{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 .heading {
   font-weight: 700;

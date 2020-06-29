@@ -4,42 +4,67 @@ import teambg from '../../assests/imgs/teambg.jpg'
 import team1image from '../../assests/imgs/team1image.jpg'
 import team2image from '../../assests/imgs/team2image.jpg'
 import team3image from '../../assests/imgs/team3image.jpg'
+import SupportClients from '../supportClients/SuppotClients'
 import '../../App.css';
 import './Teams.css'
 
 function Team() {
-  
+
   return (
- <div class="image " >
-   <img class=" mx-auto d-block mr-5"src={titleline2}/>
-    <h4 class="h2 text-center font-weight-bold"> OUR TEAM</h4>
-    <p class="p text-center mb-5">da  klam 3n el teaaaaaaaaaaaaaaaaaaaaaaaaaaam</p>
-    <div class="image ">
-    <img class="image mt-5"src={teambg}alt="back ground"/>
-    <span>
-    <div  class="text-center">
-   <p class="p mb-5 "> da klaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaam <br/> klam tany  etc etc etc ay 7agaga</p>
-</div>
-   </span>
-   </div>
-        <div class="row ml-4 card-group cards justify-content-center  ">
-        <div class="card col-6 col-sm-3 ml-5" >
-            <img src={team1image} alt= "team1image"/>
+
+    <div class="image mb-5 ">
+      <img class=" mx-auto d-block mb-3" src={titleline2} />
+      <h4 class="h2 text-center font-weight-bold "> OUR TEAM</h4>
+      <p class="p mb-5 text-center mx-auto d-block mb-5"> This paragraph
+      contains a lot of lines
+      in the source code,
+      but the browser
+ignores it.</p>
+
+      <div class="image " >
+        <img src={teambg} alt="Responsive image" />
+        <span >
+
+
+          <p class="p mb-5 text-center mx-auto d-block mt-5"> This paragraph
+          contains a lot of lines
+          in the source code,
+          but the browser
+ignores it. <br /> This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.<br />This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.</p>
+
+        </span>
+      </div>
+
+      <div class="row ml-4 card-group cards justify-content-center mb-5  ">
+        <div class="card col-6  ml-5" >
+          <img src={team1image} alt="team1image" />
 
         </div>
-        <div class="card col-6 col-sm-3">
-            <img src={team2image} alt= "team2image"/>
+        <div class="card col-6 ">
+          <img src={team2image} alt="team2image" />
 
         </div>
-        <div class="card col-6 col-sm-3">
-            <img src={team3image} alt= "team3image"/>
+        <div class="card col-6 ">
+          <img src={team3image} alt="team3image" />
 
         </div>
+        <div class="mt-5">
+
         </div>
-    
-    
-   </div> 
-    
+      </div>
+
+
+
+
+    </div>
   );
 }
 

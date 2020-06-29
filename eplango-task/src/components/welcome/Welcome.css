@@ -23,14 +23,7 @@ span {
   
 
 }
- .trial{
-
  
-  display: grid;  
-  grid-template-columns: 8fr 8fr 8fr;  
-  grid-template-rows: 150px 150px; 
-
- }
  .v {
  
     /* Absolute centering */
@@ -49,13 +42,12 @@ span {
     overflow: auto;
 
  }
- @media screen and ( max-width: 1024px ) {
-  img.heroImage { width: 200px; }
-  }
-  @media screen and ( min-width:1025px ) and ( max-width: 1280px ) {
-  img.heroImage { width: 300px; }
-  }
-  @media screen and ( min-width: 1081px ) {
-  img.heroImage { width: 350px; }
-  }
-  img.heroImage { height: auto }
+
+
+
+
+ 
+  .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  background-color:  #998675;
+  color: #FFC0CB;
+}

@@ -1,0 +1,31 @@
+.fa {
+    padding: 15px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #343a40 !important;
+
+    border-radius: 50%;
+    color: white;
+    
+     
+   
+  }
+ h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+  }
+  .secFooter{
+
+    background-color: #171824;
+  }
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+ 
