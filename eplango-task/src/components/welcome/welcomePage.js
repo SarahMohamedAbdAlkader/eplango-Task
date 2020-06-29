@@ -64,7 +64,7 @@ function WelcomePage() {
         
         <div class="container d-flex justify-content-around ">
           <span><nav class="navbar navbar-expand-lg navbar-light text-white  mr-5 ml-5 font-weight-bold">
-            <a class="navbar-brand ml-5" href="#"><img class="navbar-brand" src={logo} /></a>
+            <a class="navbar-brand ml-5 animated bounce infinite" href="#"><img class="navbar-brand animated bounce infinite" src={logo} /></a>
             <button class="navbar-toggler navbar-toggler-icon" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 
             </button>
